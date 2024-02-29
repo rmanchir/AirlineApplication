@@ -4,7 +4,7 @@
 body {
   background: #bdc3c7;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, #614385, #516395); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 @font-face {
@@ -159,7 +159,7 @@ h1 {
                             <div class="row ">                                                     
                                 <div class="col">
                                     <h2 class="text-secondary mb-0 brand">
-                                        Online Flight Booking</h2> 
+                                        The Internet Airline</h2>
                                 </div>
                                 <div class="col">
                                     <h2 class="mb-0">'.$class_txt.' CLASS</h2>

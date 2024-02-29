@@ -70,7 +70,7 @@
 body {
   background: #bdc3c7;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, #614385, #516395); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 @font-face {
@@ -137,12 +137,12 @@ if(isset($_GET['error'])) {
     } else if($_GET['error'] === 'sqlerror') {
         echo"<script>alert('Database error')</script>";
     } else if($_GET['error'] === 'success') {
-      echo"<script>alert('Thank you for your Feedback')</script>";
+      echo"<script>alert('Thank you for your request')</script>";
     } 
 }
 ?>
 <div class="container mb-4">
-  <h1> <i class="far fa-comment-alt"></i> FEEDBACK</h1>
+  <h1> <i class="far fa-comment-alt"></i> CONTACT US</h1>
   <div class="row justify-content-center">
   <div class="col-md-6 bg-light form-box">
     <form action="includes/feedback.inc.php" method="POST">
@@ -151,12 +151,15 @@ if(isset($_GET['error'])) {
             <div class="input-group">
                 <label for="user_id">Email</label>
                 <input type="text" name="email" id="user_id" required >
-              </div>              
+              </div>            
+<div class ="input-group">
+<label for="user_id">Phone no</label>
+<input type ="string"name ="phoneno" id="user_id" required >
+</div>
           </div>                      
           <div class="col-12 mt-4">
             <div class="form-group">         
-              <label for="exampleFormControlTextarea1">What was your first impression
-                  when you entered the website?</label>     
+              <label for="exampleFormControlTextarea1">Mention the issue you're facing</label>
               <textarea class="form-control" id="exampleFormControlTextarea1" name="1"                
                 rows="3" required></textarea>
             </div>                
@@ -168,60 +171,24 @@ if(isset($_GET['error'])) {
               2px solid #31B0D5; background-color: whitesmoke !important;
               font-weight: bold !important;color :cornflowerblue !important;
               width:100%" required>
-                <option  selected disabled>How did you first hear about us?</option>
-                <option >Search Engine</option>
-                <option >Social Media</option>
-                <option >Friend/Relative</option>
-                <option >Word of Mouth</option>
-                <option >Television</option>
-                <option>Other</option>
+                <option  selected disabled>How can we contact you? </option>
+                <option >Phone</option>
+                <option >Mail</option>
+        
               </select> 
             </div>                
           </div>                   
           
           <div class="col-12 mt-4">
             <div class="form-group">         
-              <label for="exampleFormControlTextarea1">Is there anything missing on this page?</label>     
+              <label for="exampleFormControlTextarea1">Is there anything you want to mention?</label>
               <textarea class="form-control" id="exampleFormControlTextarea1" name="3"                
                 rows="3" required></textarea>
             </div>                
           </div>          
       </div>  
     
-      <div class="row">
-        <div class="rating ml-3">  
-          <label>
-            <input type="radio" name="stars" value="1" required />
-            <span class="icon">★</span>
-          </label>
-          <label>
-            <input type="radio" name="stars" value="2" required />
-            <span class="icon">★</span>
-            <span class="icon">★</span>
-          </label>
-          <label>
-            <input type="radio" name="stars" value="3" required />
-            <span class="icon">★</span>
-            <span class="icon">★</span>
-            <span class="icon">★</span>
-          </label>
-          <label>
-            <input type="radio" name="stars" value="4" required />
-            <span class="icon">★</span>
-            <span class="icon">★</span>
-            <span class="icon">★</span>
-            <span class="icon">★</span>
-          </label>
-          <label>
-            <input type="radio" name="stars" value="5" required />
-            <span class="icon">★</span>
-            <span class="icon">★</span>
-            <span class="icon">★</span>
-            <span class="icon">★</span>
-            <span class="icon">★</span>
-          </label>
-        </div>
-      </div>
+      
       <div class="row">
         <div class="col text-center">
           <button name="feed_but" type="submit" 
@@ -259,8 +226,7 @@ if(isset($_GET['error'])) {
 </main>
 <footer>
 	<em><h5 class="text-light text-center p-0 brand mt-2">
-				<img src="assets/images/airtic.png" 
+				<img src="assets/images/f_image.png"
 					height="40px" width="40px" alt="">				
-			Online Flight Booking</h5></em>
-	<p class="text-light text-center">&copy; <?php echo date('Y');?> - Developed By Sujoy Dcunha, Christina Pereira, Mark Coutinho</p>
+			The Internet Airline</h5></em>
 </footer>

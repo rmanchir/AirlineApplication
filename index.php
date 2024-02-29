@@ -3,7 +3,12 @@
     require 'helpers/init_conn_db.php';                      
 	?> 	
 <style>
-
+/*--
+	Author: W3layouts
+	Author URL: http://w3layouts.com
+	License: Creative Commons Attribution 3.0 Unported
+	License URL: http://creativecommons.org/licenses/by/3.0/
+--*/
 footer {
   /* position: absolute; */
   bottom: 0;
@@ -20,9 +25,9 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	background-attachment: fixed;
     background-position: center; */
-	background: #74FF33;  /* fallback for old browsers */
+	background: #bdc3c7;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #ee9ca7 , #ffdde1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: linear-gradient(to right, #614385, #516395); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -610,9 +615,9 @@ h1 {
 	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } ;</script>	
 	<div class="main-agileinfo">
 		<h1 class="text-light brand mt-2">
-			<img src="assets/images/airtic.png" 
+			<img src="assets/images/f_image.png" 
 				height="105px" width="105px" alt="">				
-		Online Flight Booking</h1>
+		The Internet Airline</h1>
 		<div class="sap_tabs">			
 			<div id="horizontalTab">
 				<ul class="resp-tabs-list">
@@ -816,7 +821,7 @@ div.card {
 </style>
 <div class="conatiner-fluid p-4" style="background-color: whitesmoke;margin-top:150px;">
    <!-- <h2 class="text-center mb-3 mt-3 display-4"
-	   style="font-style: normal;font-size:80px;">Main Attractions In India</h2>   
+	   style="font-style: normal;font-size:100px;">Main Attractions in India </h2> 
 	<div class="row p-5 pb-0"> -->
  
 <!-- Intro -->
@@ -828,41 +833,21 @@ div.card {
                         <div class="intro_container">
                             <div class="row">
                                 <!-- Intro Item -->
-                                <div class="col-lg-4  intro_col">
+                                <div class="col-lg-10 intro_col">
                                     <div class="intro_item d-flex flex-row align-items-end justify-content-start">
-                                        <div class="intro_icon"><img src="assets/images/beach.svg" alt=""></div>
+                                         <div class="intro_icon"><img src="assets/images/suitcase.svg" alt=""></div>
                                         <div class="intro_content">
-                                            <div class="intro_title">Top Destinations</div>
+                                            <div class="intro_title">Experience incredible offers</div>
                                             <div class="intro_subtitle">
-                                                <p>What's on your travel bucket list?</p>
+                                                <p>It's the perfect time to rediscover the world with our incredible fares to amazing destinations</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <!-- Intro Item -->
-                                <div class="col-lg-4 intro_col">
-                                    <div class="intro_item d-flex flex-row align-items-end justify-content-start">
-                                        <div class="intro_icon"><img src="assets/images/wallet.svg" alt=""></div>
-                                        <div class="intro_content">
-                                            <div class="intro_title">The Best Prices</div>
-                                            <div class="intro_subtitle"> 
-                                                <p>Visit your favourite places at a reasonable price</p>
-                                            </div>
-                                        </div>
+                               
+                                
+                                 
                                     </div>
-                                </div>
-                                <!-- Intro Item -->
-                                <div class="col-lg-4 intro_col">
-                                    <div class="intro_item d-flex flex-row align-items-end justify-content-start">
-                                        <div class="intro_icon"><img src="assets/images/suitcase.svg" alt=""></div>
-                                        <div class="intro_content">
-                                            <div class="intro_title">Amazing Services</div>
-                                            <div class="intro_subtitle">
-                                                <p>Great interactions begin with knowing your customers wants and needs.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div> 
@@ -874,10 +859,10 @@ div.card {
 	</div>
 	<footer class="mt-5">
 	<em><h5 class="text-light text-center p-0 brand mt-2">
-				<img src="assets/images/airtic.png" 
+				<img src="assets/images/f_image.png"
 					height="40px" width="40px" alt="">				
-			Online Flight Booking</h5></em>
-	<div class="text-light text-center">&copy; <?php echo date('Y')?> - Developed By Sujoy Dcunha, Christina Pereira, Mark Coutinho<br><br></div>
+			The Internet Airline</h5></em>
+	
 	<!-- <p>----------</p> -->
 	
 	</footer>	
@@ -926,3 +911,4 @@ div.card {
 		});
 	});
 </script>
+

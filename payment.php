@@ -59,7 +59,7 @@ h1 {
 body {
   background: #bdc3c7;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, #614385, #516395); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
@@ -229,4 +229,9 @@ $("#payment-button").click(function(e) {
 });
 </script>
 </main>
-<?php } ?>
+<footer>
+	<em><h5 class="text-light text-center p-0 brand mt-2">
+				<img src="assets/images/f_image.png"
+					height="40px" width="40px" alt="">				
+			The Internet Airline</h5></em>
+</footer>
